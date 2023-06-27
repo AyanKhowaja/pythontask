@@ -7,7 +7,7 @@ file_path = os.listdir(directory)
 print(file_path)
 
 def delete_all_files_in_directory(directory):
-    current_time = time.time()  # Move the assignment inside the function
+    current_time = time.time()  
     for file_name in os.listdir(directory):
         file_path = os.path.join(directory, file_name)
         if os.path.isfile(file_path):
